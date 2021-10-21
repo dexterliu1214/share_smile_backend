@@ -1,8 +1,8 @@
-import { create } from "djwt/mod.ts";
+import { create } from "https://deno.land/x/djwt/mod.ts";
 
-import { key } from "/key.js";
-import { hash } from "/util/hash.js";
-import { users } from "/users.js";
+import { key } from "../key.js";
+import { hash } from "../util/hash.js";
+import { users } from "../users.js";
 
 export default async (context) => {
   const value = await context.request.body().value;

@@ -1,8 +1,8 @@
-import { Application, Router } from "oak/mod.ts";
-import { oakCors } from "cors/mod.ts";
-import validateToken from "/middleware/validateToken.js";
-import register from "/api/register.js";
-import login from "/api/login.js";
+import { Application, Router } from "https://deno.land/x/oak/mod.ts";
+import { oakCors } from "https://deno.land/x/cors/mod.ts";
+import validateToken from "./middleware/validateToken.js";
+import register from "./api/register.js";
+import login from "./api/login.js";
 
 const router = new Router();
 

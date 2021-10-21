@@ -1,5 +1,5 @@
-import { verify } from "djwt/mod.ts";
-import { key } from "/key.js";
+import { verify } from "https://deno.land/x/djwt/mod.ts";
+import { key } from "../key.js";
 
 const validateToken = async (ctx, next) => {
   const authorization = ctx.request.headers.get("Authorization") ?? "";

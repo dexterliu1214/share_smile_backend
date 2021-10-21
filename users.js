@@ -1,4 +1,4 @@
-import { hash } from "/util/hash.js";
+import { hash } from "./util/hash.js";
 
 var users = {
   "test": {
