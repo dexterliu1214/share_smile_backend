@@ -1,0 +1,11 @@
+{
+    "imports": {
+        "/": "./",
+        "./": "./",
+        "djwt/": "https://deno.land/x/djwt/",
+        "oak/": "https://deno.land/x/oak@v9.0.1/",
+        "cors/": "https://deno.land/x/cors/",
+        "http/": "https://deno.land/std/http/",
+        "hash/": "https://deno.land/std/hash/"
+    }
+}
