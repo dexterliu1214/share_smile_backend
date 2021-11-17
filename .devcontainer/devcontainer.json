@@ -21,7 +21,8 @@
 
 	// This will install the vscode-deno extension
 	"extensions": [
-		"denoland.vscode-deno"
+		"denoland.vscode-deno",
+		"alexcvzz.vscode-sqlite"
 	],
 
 	"remoteUser": "vscode"
